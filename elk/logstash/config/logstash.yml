@@ -1,0 +1,15 @@
+
+
+http.host: "0.0.0.0"
+
+xpack.monitoring.enabled: true
+xpack.monitoring.elasticsearch.username: elastic
+xpack.monitoring.elasticsearch.password: changeme
+xpack.monitoring.elasticsearch.url: http://elasticsearch:9200
+
+xpack.monitoring.collection.pipeline.details.enabled: true
+
+xpack.management.enabled: true
+xpack.management.elasticsearch.username: elastic
+xpack.management.elasticsearch.password: changeme
+xpack.management.elasticsearch.url:  http://elasticsearch:9200 

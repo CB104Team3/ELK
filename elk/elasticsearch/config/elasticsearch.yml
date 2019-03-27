@@ -1,0 +1,23 @@
+
+cluster.name: "python-lab-docker"
+
+network.host: 0.0.0.0
+
+
+discovery.zen.minimum_master_nodes: 1
+discovery.type: single-node
+xpack.license.self_generated.type: trial
+xpack.security.enabled: true
+
+xpack.notification.email.account:
+    gmail_account:
+        profile: gmail
+        smtp:
+            auth: true
+            starttls.enable: true
+            host: smtp.gmail.com
+            port: 587
+            user: username@gmail.com
+            password: userpassword
+
+
